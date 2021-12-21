@@ -1,4 +1,11 @@
 .homepage{
+    text-align: center;
+    margin: 40px;
+
+    h1{
+        margin-bottom: 50px;
+    }
+
     .homepage__recipes{
         display: flex;
         flex-wrap: wrap;

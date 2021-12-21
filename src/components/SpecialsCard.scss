@@ -1,0 +1,43 @@
+.specialscard{
+    border: 1px solid #3a3f50;
+    margin: 1em 1em 1em 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+
+    .specialscard__details{
+        padding: 40px;
+    }
+    
+    span{
+        color: lightgray;
+        margin-bottom: 5px;
+    }
+    p{
+        margin-top: 20px;
+        width: 300px;
+    }
+
+    button{
+        background-color: #3a3f50;
+        border:0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: #fff;
+        padding: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+   
+
+    
+}
+.nocolor{
+    color: #fff;
+    text-decoration: none;
+}
+.specialscard:hover{
+    border: 1px solid #fff !important
+}

@@ -1,0 +1,30 @@
+.specialspage{
+    margin: 50px;
+
+
+    .specialspage__specials{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+    }
+    .specialspage__header{
+        display: flex;
+        align-items: center;
+    }
+
+    .specialspage__add button{
+        margin-left: 2em;
+        padding: 1em 1.5em 1em 1.5em;
+        border-radius: 10px;
+        border: 1px solid #3a3f50;
+        font-weight: bold;
+        color: #fff;
+        background-color: #0D1117;
+        cursor: pointer;
+    }
+
+    .specialspage__add button:hover{
+        border:1px solid #fff !important
+    }
+}

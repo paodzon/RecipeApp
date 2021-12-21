@@ -1,0 +1,31 @@
+nav{
+    background-color: #161B22;
+    padding: 10px 10px 10px 20px;
+    display: flex;
+
+    img{
+        object-fit: contain;
+        cursor: pointer;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+
+    li{
+        margin-left: 3em;
+        cursor: pointer;
+    }
+    li:hover{
+        font-weight: bold;
+        
+    }
+    a{
+        color: #fff !important;
+        text-decoration: none;
+    }
+
+}
+
+
