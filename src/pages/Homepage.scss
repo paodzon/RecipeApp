@@ -1,0 +1,12 @@
+.homepage{
+    .homepage__recipes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly
+    }
+    a{
+        color:#fff !important;
+        text-decoration: none;
+    }
+}
+
